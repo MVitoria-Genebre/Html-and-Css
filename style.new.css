@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(146, 127, 127);
+} 
+/*-------------------------------------------------------------------*/
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.cabecalho_img{
+    height: 80px;
+}
+.cabecalho_menu {
+    display: flex;
+    gap: 90px;
+}
+.cabecalho_escrita {
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.principal {
+    border-top: 2px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    
+}
