@@ -1,6 +1,6 @@
 *{
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #8f7070;
 }
 form {
@@ -40,6 +40,7 @@ input[type=password] {
     background-color: #ccc;
     border: 1px solid black;
     outline: none;
+    border-radius: 10px;
 }
 input#nao{
     margin-left: 30px;
