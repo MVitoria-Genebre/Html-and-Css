@@ -1,13 +1,22 @@
+*{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #8f7070;
+}
+form {
+    background-color: #E8E6DF;
+}
 
 .formulario{
-    display: flex;
+    display: block;
+    margin: 0 auto  ;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
     width: 400px;
     padding: 30px;
-    border:1px solid #ccc;
+    border: 3px solid black;
+    
 }
 .field{
     width: 100%;
@@ -19,8 +28,8 @@
     font-size: 1.1em;
     display: block;
     width: 100%;
+    color: black;
 }
-
 input[type=text],
 input[type=email],
 input[type=password] {
@@ -28,8 +37,8 @@ input[type=password] {
     padding-left: 10px;
     height: 30px;
     line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #ccc;
+    background-color: #ccc;
+    border: 1px solid black;
     outline: none;
 }
 input#nao{
@@ -43,7 +52,7 @@ textarea{
 }
 input[type=submit]{
     display: block;
-    background-color: #ccc;
+    background-color: #b09999;
     height: 35px;
     border: none;
     outline: 0;
@@ -51,5 +60,8 @@ input[type=submit]{
     width: 100px;
     margin: 0 auto;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 5px;
+}
+label{
+    background-color: #E8E6DF;
 }
